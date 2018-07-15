@@ -63,7 +63,7 @@
 > 也就是说需要在本地搭建后台开发环境，node，java，php，等后台编程语言，提供接口支持。
 
 1. 项目后台编程语言是nodejs所有必须安装nodejs软件
-2. 项目github主页 [https://github.com/zhousg/letao](https://github.com/zhousg/letao)
+2. 项目github主页 [https://github.com/zhousg/letao-47](https://github.com/zhousg/letao-47)
 3. 可使用git拉取源代码
 ```text
     git仓库地址 https://github.com/zhousg/letao.git  
