@@ -54,7 +54,7 @@
     <ul>
         {{if rows.length }}
             {{each rows}}
-            <li><a href="#"><img src="{{$value.brandLogo}}" alt=""><p>{{$value.brandName}}</p></a></li>
+            <li><a href="#"><img onerror="this.src='images/none01.jpg'" src="{{$value.brandLogo}}" alt=""><p>{{$value.brandName}}</p></a></li>
             {{/each}}
         {{else}}
             <li class="nd">没有分类数据</li>
