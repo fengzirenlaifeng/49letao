@@ -45,7 +45,7 @@
 </script>-->
 <script type="text/template" id="leftTpl">
     <ul>
-        {{each rows as item i}}
+        {{each rows item i}}
         <li class="{{i===0?'now':''}}"><a data-id="{{item.id}}" href="javascript:;">{{item.categoryName}}</a></li>
         {{/each}}
     </ul>

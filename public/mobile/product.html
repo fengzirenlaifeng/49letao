@@ -73,15 +73,15 @@
             var start = sizeArr[0],end = sizeArr[1];
             for(var i = start; i<= end; i++){
         %>
-            <span>{{i}}</span>
+            <span data-value="{{i}}">{{i}}</span>
         <% } %>
     </div>
     <div class="lt_pro_Num">
         数量：
         <div>
-            <span>-</span>
-            <input type="number">
-            <span>+</span>
+            <span data-type="0">-</span>
+            <input type="number" value="1" data-max="{{$data.num}}" readonly>
+            <span data-type="1">+</span>
         </div>
         剩余：{{$data.num}} 件
     </div>

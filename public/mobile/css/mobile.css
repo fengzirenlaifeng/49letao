@@ -45,6 +45,9 @@
     padding-top: 45px;
     padding-bottom: 55px;
 }
+.lt_wrapper.cart{
+    padding-bottom: 85px;
+}
 .lt_wrapper .lt_content{
     position: relative;
     width: 100%;
